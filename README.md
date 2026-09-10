@@ -12,7 +12,7 @@
 
 ## ✨ 核心特性
 
-*   💬 **无限制对话**：原生支持 OpenRouter 聚合接口，轻松调用 `MiniMax-M3`、`Qwen3.8`、`DeepSeek` 等顶级免费大模型。
+*   💬 **无限制对话**：原生支持 OpenRouter 聚合接口，轻松调用 ~~`MiniMax-M3`~~、`Qwen3.8`、`DeepSeek` 、`GLM`等顶级免费大模型。
 *   🎨 **高阶 AI 画图**：内置 Hugging Face Inference Providers，支持 `FLUX.1-schnell`、`Stable Diffusion XL` 等顶级开源视觉模型。
 *   ⚡ **极简容器部署**：专为 Python 容器和 Serverless 环境优化，无缝兼容各类云面板与本地服务器。
 *   🛡️ **严格白名单过滤**：支持自定义 TG 用户 ID 鉴权，防滥用、防盗刷。
@@ -71,8 +71,8 @@ ADMIN_USER_IDS=你的纯数字TG_ID (用于解锁 /stats 数据统计)
 # 2️⃣--- 文本聊天配置 (OpenRouter) ---
 OPENAI_BASE_URL=https://openrouter.ai/api/v1
 OPENAI_API_KEY=sk-or-xxxx你的OpenRouter密钥xxxx
-OPENAI_MODEL=minimax/minimax-m3:free
-VISION_MODEL="minimax/minimax-m3:free"
+OPENAI_MODEL=nvidia/nemotron-3-ultra-550b-a55b:free
+VISION_MODEL="nvidia/nemotron-3-ultra-550b-a55b:free"
 MAX_TOKENS=2000
 
 
@@ -117,4 +117,5 @@ ENABLE_IMAGE_GENERATION=true
 * [Katabump](https://katabump.com/) - 为开发者提供云端 Python 容器服务
 * [环境变量.env进阶设置](https://github.com/n3d1117/chatgpt-telegram-bot/blob/main/README.md) - 参数自定义修改请参考原项目文档
 * [Bot回答内容格式](https://github.com/upleung/FreeAI-Telegram-Bot/blob/main/src/doc/%E5%85%B3%E4%BA%8E%E5%9B%9E%E7%AD%94%E5%86%85%E5%AE%B9%E9%BB%98%E8%AE%A4%E6%98%AFMarkdown%E6%A0%BC%E5%BC%8F.md) - 关于回答内容默认是Markdown格式
+* [模型调用建议](https://github.com/upleung/FreeAI-Telegram-Bot/blob/main/src/doc/%E6%9C%80%E6%96%B0%E5%8F%AF%E8%B0%83%E7%94%A8%E5%A4%A7%E6%A8%A1%E5%9E%8B%E8%AF%B4%E6%98%8E.md) - 最新可调用大模型说明
 * [项目说明文档](https://github.com/upleung/FreeAI-Telegram-Bot/tree/main/src/doc) - 更多说明文档请参考DOC
