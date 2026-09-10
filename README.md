@@ -117,4 +117,5 @@ ENABLE_IMAGE_GENERATION=true
 * [Katabump](https://katabump.com/) - 为开发者提供云端 Python 容器服务
 * [环境变量.env进阶设置](https://github.com/n3d1117/chatgpt-telegram-bot/blob/main/README.md) - 参数自定义修改请参考原项目文档
 * [Bot回答内容格式](https://github.com/upleung/FreeAI-Telegram-Bot/blob/main/src/doc/%E5%85%B3%E4%BA%8E%E5%9B%9E%E7%AD%94%E5%86%85%E5%AE%B9%E9%BB%98%E8%AE%A4%E6%98%AFMarkdown%E6%A0%BC%E5%BC%8F.md) - 关于回答内容默认是Markdown格式
+* [模型调用建议](https://github.com/upleung/FreeAI-Telegram-Bot/blob/main/src/doc/%E6%9C%80%E6%96%B0%E5%8F%AF%E8%B0%83%E7%94%A8%E5%A4%A7%E6%A8%A1%E5%9E%8B%E8%AF%B4%E6%98%8E.md) - 最新可调用大模型说明
 * [项目说明文档](https://github.com/upleung/FreeAI-Telegram-Bot/tree/main/src/doc) - 更多说明文档请参考DOC
