@@ -12,7 +12,7 @@
 
 ## ✨ 核心特性
 
-*   💬 **无限制对话**：原生支持 OpenRouter 聚合接口，轻松调用 `MiniMax-M3`、`Qwen3.8`、`DeepSeek` 等顶级免费大模型。
+*   💬 **无限制对话**：原生支持 OpenRouter 聚合接口，轻松调用 ~~`MiniMax-M3`~~、`Qwen3.8`、`DeepSeek` 、`GLM`等顶级免费大模型。
 *   🎨 **高阶 AI 画图**：内置 Hugging Face Inference Providers，支持 `FLUX.1-schnell`、`Stable Diffusion XL` 等顶级开源视觉模型。
 *   ⚡ **极简容器部署**：专为 Python 容器和 Serverless 环境优化，无缝兼容各类云面板与本地服务器。
 *   🛡️ **严格白名单过滤**：支持自定义 TG 用户 ID 鉴权，防滥用、防盗刷。
@@ -71,8 +71,8 @@ ADMIN_USER_IDS=你的纯数字TG_ID (用于解锁 /stats 数据统计)
 # 2️⃣--- 文本聊天配置 (OpenRouter) ---
 OPENAI_BASE_URL=https://openrouter.ai/api/v1
 OPENAI_API_KEY=sk-or-xxxx你的OpenRouter密钥xxxx
-OPENAI_MODEL=minimax/minimax-m3:free
-VISION_MODEL="minimax/minimax-m3:free"
+OPENAI_MODEL=nvidia/nemotron-3-ultra-550b-a55b:free
+VISION_MODEL="nvidia/nemotron-3-ultra-550b-a55b:free"
 MAX_TOKENS=2000
 
 
